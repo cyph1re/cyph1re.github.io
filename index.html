@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<Script> document.onkeydown = function (e) {
+        return false;
+} </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne"/>
+    <!-- Add icon library -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>sihan</title> 
+
+ <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="icon" type="image/x-icon" href="https://sihan.ml/chamber.png">
+   
+
+ <video id="background-video" autoplay loop muted poster="https://i.imgur.com/livXi09.jpg">
+<source src="rain.mp4" type="video/mp4">
+</video>
+ 
+
+
+    <style>
+      
+        
+    
+   
+
+      
+      #background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+      body {
+         background-image: url('https://i.imgur.com/livXi09.jpg');/* The image used for background*/
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-position: center; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        font-family: "Syne", sans-serif;
+      }
+
+      .container {
+        width: 25%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin:auto;
+        
+      }
+
+      .image-container {
+        text-align: center;
+        width: 100%;
+      }
+
+      .links-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: left;
+        gap: 20px;
+      }
+
+      .link {
+        min-width: 50% !important;
+      }
+
+      @media (min-width: 1200px) {
+        .container {
+          max-width: 1140px;
+        }
+      }
+      @media (min-width: 992px) {
+        .container {
+          max-width: 960px;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          max-width: 720px;
+        }
+
+        .link {
+          width: 100%;
+        }
+      }
+      @media (min-width: 576px) {
+        .container {
+          max-width: 540px;
+        }
+      }
+
+      .w3-yellow,
+      .w3-hover-red:hover,
+      .w3-text-black {
+        color: rgba(222, 39, 26) !important;
+        background-color: rgba(0,0,0) !important;
+      }
+    </style>
+  </head>
+
+
+
+  <body class="w3-white" onclick="play()">
+    <body oncontextmenu="return false;">
+    <!-- Content container -->
+    <div class="container">
+      <!-- Image and name container. Change to your picture here. -->
+      <div class="image-container">
+        
+
+        <!-- Content. Add bio. -->
+        <div class="w3-text-white">
+            <p style="color:grey;" class="w3-large"><strong></strong>
+          <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+
+   
+
+        </div>
+
+
+        <!-- Links section 1. Replace the # inside of the "" with your links. -->
+        <!-- <div class="links-container">
+          <a href="https://instagram.com/siihaaann/" class="w3-button w3-text-white w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank"><i class="fa fa-instagram">instagram</i>
+          <a href="https://www.youtube.com/@fathomsb" class="w3-button w3-hover-red w3-large w3-round-xlarge w3-yellow link" target="_blank"> <i class="fa fa-youtube"></i></a>
+
+<a href="https://spoti.fi/3DDUoEr" class="w3-button w3-hover-green w3-large w3-round-xlarge w3-yellow link" target="_blank"> <i class="fa fa-spotify"></i></a>
+<a href="https://twitter.com/siihaaann" class="w3-button w3-hover-blue w3-large w3-round-xlarge w3-yellow link" target="_blank"> <i class="fa fa-twitter"></i></a>
+          <a href="https://www.snapchat.com/add/siihaaann" class="w3-button w3-hover-yellow w3-large w3-round-xlarge w3-yellow link" target="_blank"> <i class="fa fa-snapchat"></i></a>
+          <a href="https://discord.com/users/750610462319575102" class="w3-button w3-hover-indigo w3-large w3-round-xlarge w3-yellow link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+  <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+</svg></a>
+-->
+  
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog entry. Change the text and link to your most recent post. -->
+    <div class="w3-content w3-padding-32 w3-center" style="padding-right: 10px; padding-left: 10px; max-width: 600px">
+<!-- Display the countdown timer in an element -->
+
+
+     <!-- <p class="w3-text-white"><strong>hood politics.</strong></p> -->
+
+
+<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+<h3 class="w3-text-white">sihan
+</h3>
+<audio loop id="audio" src="papi.mp3"></audio>
+
+
+<h4><button class="w3-text-white w3-large"  onclick="parent.location='https://sihan.ml/red.html'" name="submitDetails">biggest hypocrite of 2015</button><br>
+  
+ 
+  <script>
+    function ratestar() {
+      var a;
+      a = document.getElementById("div1");
+      a.innerHTML = "&#xf006;";
+      setTimeout(function () {
+          a.innerHTML = "&#xf123;";
+        }, 1000);
+      setTimeout(function () {
+          a.innerHTML = "&#xf005;";
+        }, 2000);
+    }
+    ratestar();
+    setInterval(ratestar, 3000);
+    </script>
+  <button class="w3-text-white w3-large" type="submit" onclick="parent.open('https://instagram.com/siihaaann/')" name="submitDetails">INSTAGRAM</button>
+<button class="w3-text-white w3-large" type="submit" onclick="parent.open('https://snapchat.com/add/siihaaann/')" name="submitDetails">SNAPCHAT</button>
+<button class="w3-text-white w3-large" type="submit" onclick="parent.open('https://tiktok.com/@siihaaann/')" name="submitDetails">TIKTOK</button><br>
+<button class="w3-text-white w3-large" type="submit" onclick="parent.open('https://twitter.com/siihaaann/')" name="submitDetails">TWITTER</button>
+
+
+<button class="w3-text-white w3-large" type="submit" onclick="parent.open('https://youtube.com/@fathom.mp3/')" name="submitDetails">YOUTUBE</button>
+
+<button class="w3-text-white w3-large" type="submit" onclick="parent.open('https://discord.com/users/750610462319575102')" name="submitDetails">DISCORD</button>
+
+
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+</script>
+
+<button class="w3-text-white w3-large" onclick="myFunction();">MUSIC(2)</button>
+<div id="myDIV" style="display: none">
+    
+        <button class="w3-text-white w3-large" type="submit" onclick="parent.open('https://spoti.fi/3DDUoEr')" name="submitDetails">SPOTIFY</button>
+<button class="w3-text-white w3-large" type="submit" onclick="parent.open('https://music.apple.com/profile/siihaaann')" name="submitDetails">APPLE MUSIC</button>
+
+        	
+  
+</div>
+
+<style>
+  button {
+      background-color: Transparent;
+      color:green;
+      background-repeat:no-repeat;
+      border: none;
+      cursor:pointer;
+      overflow: hidden;
+      outline:none;
+  }
+  </style>
+
+
+
+
+ 
+
+
+
+<script type="text/javascript"> 
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var x = new Date()
+var x1=x.getMonth() + 1+ "/" + x.getDate() + "/" + x.getFullYear(); 
+x1 = x1 + " - " +  x.getHours( )+ ":" +  x.getMinutes() + ":" +  x.getSeconds();
+document.getElementById('ct').innerHTML = x1;
+display_c();
+ }
+</script>
+
+       
+      <h6 class="w3-text-white"><body onload=display_ct();>
+<span id='ct' ></span></h7>
+      <p class="w3-text-white">
+        <div class="w3-col m8 s12">
+          <p>
+            <!-- <button class="w3-button w3-yellow w3-padding-large w3-round-xlarge">
+              <b>READ MORE »</b>
+            </button> -->
+          </p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p>
+          <!--  <span class="w3-padding-large w3-right w3-text-white">
+              <b>Comments</b>
+              <span class="w3-badge w3-yellow">
+                3
+              </span>
+            </span>-->
+          </p>
+        </div>
+      </div>
+      <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+     <!-- <footer class="w3-container w3-center w3-padding-48 w3-margin-top">
+        <a class="w3-margin-bottom" href="https://www.w3schools.com/spaces" title="This website was made with W3schools Spaces. Make your own free website today!" target="_blank">
+          <img style="filter: brightness(0) invert(1);" src="https://spaces.w3schools.com/logo_4x.png" width="50" height="50">
+        </a> 
+      <!-- End footer -->
+      </footer>
+    </div>
+  </body>
+</html>
